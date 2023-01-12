@@ -4,9 +4,20 @@ const object = {
   country: "the world",
 };
 
-// using the dot notation will add new value to th object
-console.log(object.dateOfBirth = "1992");
-console.log(object)
+// using the dot notation will add new value to the object
+object.dateOfBirth = "61";
+
+
+// declare new values
+let key = "occupation"
+let value = ["singer", "song writer", "intertainer"]
+
+// add new value to object using brackets notation
+object[key] = value
+
+console.log(object);
+
+
 
 // this methode will return array of arrays 
 // where each sub array contains the key-value pairs of the object
