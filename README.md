@@ -1,3 +1,3 @@
 # Objects-Arrays
 
-In this respository i am learning about objects in arrays in Javascript git status
+In this respository i am learning about objects in arrays in Javascript
