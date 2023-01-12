@@ -1,36 +1,42 @@
-const object = {
+const artists = {
   name: "michel",
   lastName: "jackson",
   country: "the world",
 };
 
+
+// accemulator
+let array = []
+
 // using the dot notation will add new value to the object
-object.dateOfBirth = "61";
+artists.dateOfBirth = "61";
 
 
-// declare new values
+// declare new key name
 let key = "occupation"
+// declare value of the occupattion
 let value = ["singer", "song writer", "intertainer"]
 
-// add new value to object using brackets notation
-object[key] = value
+// add new key and value to object using brackets notation
+artists[key] = value
 
-console.log(object);
+// push the object in to a array
+array.push(artists)
+console.log(array)
+
+
 
 
 
 // this methode will return array of arrays 
 // where each sub array contains the key-value pairs of the object
-// console.log(Object.entries(object));
-
-// the keys methode will turn the object in to a array
-// console.log(Object.keys(object));
+// let arr = Object.entries(artists);
 
 
 
-// let array = []
+// the keys methode will turn the object in to a single array
+// let arr = Object.keys(artists);
+// console.log(arr);
 
-// for (let i = 0; i < object.length; i++) {
-//     console.log(object[i])
-    
-// }
+
+
