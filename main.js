@@ -14,7 +14,7 @@ artists.dateOfBirth = "61";
 
 // declare new key name
 let key = "occupation"
-// declare value of the occupattion
+// declare value of occupattion
 let value = ["singer", "song writer", "intertainer"]
 
 // add new key and value to object using brackets notation
@@ -23,6 +23,13 @@ artists[key] = value
 // push the object in to a array
 array.push(artists)
 console.log(array)
+
+
+// get the first index of occupation array inside object 
+console.log(array[0].occupation[0])
+
+
+
 
 
 
